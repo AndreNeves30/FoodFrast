@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FoodFrast</string>
+    <string name="sobre">Sobre</string>
+    <string name="hist_rico">Histórico</string>
+    <string name="configura_es">Configurações</string>
+    <string name="buscar">Buscar</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="compartilhar">Compartilhar</string>
 </resources>

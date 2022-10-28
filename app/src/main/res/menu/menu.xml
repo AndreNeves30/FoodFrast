@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Favoritos"
-        android:icon="@drawable/ic_baseline_favorite"
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
         android:id="@+id/mFav"
-        />
-    <item android:title="Buscar"
-        android:icon="@drawable/ic_baseline_search"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="@string/favoritos"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mBus"
-        />
-    <item android:title="Configurações"
-        android:icon="@drawable/ic_baseline_settings"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="@string/buscar"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mConfif"
-        />
-    <item android:title="Histórico"
-        android:icon="@drawable/ic_baseline_history"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/configura_es"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mHist"
-        />
-    <item android:title="Sobre"
-        android:icon="@drawable/ic_baseline_info"
+        android:icon="@drawable/ic_baseline_history"
+        android:title="@string/hist_rico"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mAbout"
-        />
-    <item android:title="Compartilhar"
-        android:icon="@drawable/ic_baseline_share"
+        android:icon="@drawable/ic_baseline_info"
+        android:title="@string/sobre"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mShare"
-        />
+        android:icon="@drawable/ic_baseline_share"
+        android:title="@string/compartilhar"
+        app:showAsAction="ifRoom" />
 
 </menu>
