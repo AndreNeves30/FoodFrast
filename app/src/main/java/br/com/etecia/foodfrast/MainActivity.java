@@ -27,36 +27,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mFav:
+            case R.id.mWifi:
                 Toast.makeText(getApplicationContext(),
-                        "Cliquei no fav",
+                        "To com internet",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mBus:
+            case R.id.mBlubluth:
                 Toast.makeText(getApplicationContext(),
-                        "Cliquei nessa coisa ai",
+                        "Your blutooth device has been conected",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mConfif:
+            case R.id.mVibra:
                 Toast.makeText(getApplicationContext(),
-                        "Cliquei nos confif",
+                        "Vibra",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mHist:
+            case R.id.mBat:
                 Toast.makeText(getApplicationContext(),
-                        "Cliquei no lugar proibido",
+                        "Sei quanto de bateria tem n",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mAbout:
-                Toast.makeText(getApplicationContext(),
-                        "Cliquei no negocio",
-                        Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.mShare:
-                Toast.makeText(getApplicationContext(),
-                        "Cliquei no chare",
-                        Toast.LENGTH_SHORT).show();
-                break;
+
         }
 
         return super.onOptionsItemSelected(item);

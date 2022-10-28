@@ -2,34 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/mFav"
-        android:icon="@drawable/ic_baseline_favorite"
-        android:title="@string/favoritos"
+        android:id="@+id/mBlubluth"
+        android:icon="@drawable/ic_baseline_settings_bluetooth"
+        android:title="bluetooth"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mBus"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="@string/buscar"
+        android:id="@+id/mVibra"
+        android:icon="@drawable/ic_baseline_vibration"
+        android:title="vibracao"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mConfif"
-        android:icon="@drawable/ic_baseline_settings"
-        android:title="@string/configura_es"
+        android:id="@+id/mWifi"
+        android:icon="@drawable/ic_baseline_wifi"
+        android:title="Wifi"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mHist"
-        android:icon="@drawable/ic_baseline_history"
-        android:title="@string/hist_rico"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mAbout"
-        android:icon="@drawable/ic_baseline_info"
-        android:title="@string/sobre"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mShare"
-        android:icon="@drawable/ic_baseline_share"
-        android:title="@string/compartilhar"
+        android:id="@+id/mBat"
+        android:icon="@drawable/ic_baseline_battery_unknown"
+        android:title="Bateria"
         app:showAsAction="ifRoom" />
 
 </menu>
